@@ -3,7 +3,7 @@ name: Deploy DotNet project to Azure Function App
 on: [push]
 
 env:
-  AZURE_FUNCTIONAPP_NAME: "vicdev-weatherapi"
+  AZURE_FUNCTIONAPP_NAME: "victordevapp"
   AZURE_FUNCTIONAPP_PACKAGE_PATH: "." # e.g., "src/MyFuncApp" if not root
   DOTNET_VERSION: "8.0.x"
 
